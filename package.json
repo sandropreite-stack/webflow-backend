@@ -1,0 +1,16 @@
+{
+  "name": "webflow-google-workspace-backend",
+  "version": "1.0.0",
+  "description": "Backend to receive Webflow webhooks and update Google Docs/Sheets",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "googleapis": "^137.1.0"
+  }
+}
